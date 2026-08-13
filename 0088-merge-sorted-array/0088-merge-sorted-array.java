@@ -3,10 +3,7 @@ class Solution {
         
         int arr[]=new int[m+n];
         int i=0,j=0,k=0;
-        while(i<m && j<n){
-
-                
-            
+        while(i<m && j<n){ 
             if (nums1[i]<nums2[j]){
                 arr[k]=nums1[i];
                 i++;
