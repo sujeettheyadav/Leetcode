@@ -15,6 +15,7 @@ class Solution {
             }
             max=Math.max(area,max);
         }
+        System.gc();
         return max;
 
     }
